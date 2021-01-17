@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>PriceLoser</title>
+  <title>Priceloser</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -36,7 +36,7 @@
   <header id="header" class="fixed-top bg-primary ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">PriceLoser</a></h1>
+      <h1 class="logo me-auto"><a href="index.html">Priceloser</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -45,23 +45,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="About.html">About</a></li>
           <li><a href="services">Services</a></li>
-         <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
+         
           <li><a href="Contact_us.html">Contact</a></li>
 
         </ul>
@@ -73,163 +57,63 @@
   </header><!-- End Header -->
 
  
-
   <main id="main">
     <section class="main_heading  mt-4 pt-6 ">
-        <div class="text-center">
-            <h1 class="dispaly-4">I have an EMI card</h1>
-            <hr class="w-25 mx-auto">
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xxl-8 col-md-8 m-auto">
-                  <form>
-                          <div class="mb-3">
-                              Choose you EMI card:-
-                                <select class="form-control" name="card" id="card">
-                                    <option value="">card</option>
-                                    <option value="">Bajaj</option>
-                                    <option value="">ICICI</option>
-                                    <option value="">HDFC</option>
-                                    <option value="">SBI</option>
-                                                               
-                              </select>
-                              <div class="form-group">
-                                <input type="text" name="other" class="form-control" id="name" placeholder="other  *optional" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                              </div> 
-                          </div>
-                          <div class="mb-3">
-                              Choose you location:-
-                                <select class="form-control" name="city" id="city">
-                                    <option value="">City</option>
-                                    <option value="">Bhubneshwar</option>
-                                    <option value="">Cuttak</option>
-                                    <option value="">Puri</option>
-                                    <option value="">Bhadrak</option>
-                                    <option value="">Sambalpur</option>
-                                </select>
-                          </div>
-                      <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-  <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio my-4 ">
-    <div class="container" data-aos="fade-up">
-
-      <div class="section-title">
-        <h2>Choose Shop</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <div class="text-center">
+          <h1 class="dispaly-4">I have an EMI card</h1>
+          <hr class="w-25 mx-auto">
       </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-xxl-8 col-md-8 m-auto">
+                <form class="row g-3">
+                 
+                 
+                  <div class="col-md-4">
+                    <label for="validationDefault03" class="form-label">City</label>
+                    <input type="text" class="form-control" id="validationDefault03" required>
+                  </div>
+                  <div class="col-md-4">
+                    <label for="validationDefault04" class="form-label">State</label>
+                    <select class="form-select" id="validationDefault04" required>
+                      <option selected disabled value="">Choose State</option>
+                      <option>Odisha</option>
+                      
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <label for="validationDefault04" class="form-label">Card</label>
+                    <select class="form-select" id="validationDefault04" required>
+                      <option selected disabled value="">Choose Your EMI Card</option>
+                      <option>Bajaj</option>
+                      <option>HDFC</option>
+                      <option>ICICI</option>
+                      <option>SBI</option>
 
-      <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-        <li data-filter="*" class="filter-active">All</li>
-        <li data-filter=".filter-app">Mobile</li>
-        <li data-filter=".filter-card">Electronic</li>
-        <li data-filter=".filter-web">TVs</li>
-      </ul>
-
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
-          <div class="portfolio-info">
-            <h4>App 1</h4>
-            <p>App</p>
-            <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input is-invalid" type="checkbox" value="mark" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                      <label class="form-check-label" for="invalidCheck3">
+                        Agree to terms and conditions
+                      </label>
+                      <div id="invalidCheck3Feedback" class="invalid-feedback">
+                        You must agree before submitting.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                   <button class="btn btn-primary" type="submit" href="chooseShop.html">Submit form</button> 
+                   <a href="chooseShop.html" class="btn btn-primary">Next</a>
+                  </div>
+                </form>
+              </div>
           </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
-          <div class="portfolio-info">
-            <h4>Web 3</h4>
-            <p>Web</p>
-            <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
-          <div class="portfolio-info">
-            <h4>App 2</h4>
-            <p>App</p>
-            <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
-          <div class="portfolio-info">
-            <h4>Card 2</h4>
-            <p>Card</p>
-            <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
-          <div class="portfolio-info">
-            <h4>Web 2</h4>
-            <p>Web</p>
-            <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-          <div class="portfolio-info">
-            <h4>App 3</h4>
-            <p>App</p>
-            <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
-          <div class="portfolio-info">
-            <h4>Card 1</h4>
-            <p>Card</p>
-            <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
-          <div class="portfolio-info">
-            <h4>Card 3</h4>
-            <p>Card</p>
-            <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
-          <div class="portfolio-info">
-            <h4>Web 3</h4>
-            <p>Web</p>
-            <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-          </div>
-        </div>
-
       </div>
+  </section>
+   
 
-    </div>
-  </section><!-- End Portfolio Section -->
 
   </main><!-- End #main -->
 
@@ -241,7 +125,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>PriceLoser</h3>
+            <h3>Priceloser</h3>
             <p>
               A108 Adam Street <br>
               New York, NY 535022<br>
@@ -291,7 +175,7 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        &copy; Copyright <strong><span>PriceLoser</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Priceloser</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
        

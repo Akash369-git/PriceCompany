@@ -10,6 +10,13 @@
       });
     }
   });
+// //Hambergar meanu
+//   function onClickMenu(){
+//     document.getElementById("menu").classList.toggle("change");
+//     document.getElementById("nav").classList.toggle("change");
+    
+//     document.getElementById("menu-bg").classList.toggle("change-bg");
+//   }
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#header').outerHeight() - 2;
@@ -26,11 +33,11 @@
 
         $('html, body').animate({
           scrollTop: scrollto
-        }, 1500, 'easeInOutExpo');
+        }, 4500, 'easeInOutExpo');
 
         if ($(this).parents('.nav-menu, .mobile-nav').length) {
           $('.nav-menu .active, .mobile-nav .active').removeClass('active');
-          $(this).closest('li').addClass('active');
+          $(this).closest('li','button').addClass('active');
         }
 
         if ($('body').hasClass('mobile-nav-active')) {
@@ -41,6 +48,14 @@
         return false;
       }
     }
+  });
+  
+  // Testimonials carousel (uses the Owl Carousel library)
+  $(".testimonials-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
   });
 
   // Activate smooth scroll on page load with hash links
